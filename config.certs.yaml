@@ -1,0 +1,4 @@
+#ddev-generated
+hooks:
+    pre-start:
+        - exec-host: mkdir -p .ddev/web-build/certs && sudo cp /usr/local/share/ca-certificates/*.crt .ddev/web-build/certs
