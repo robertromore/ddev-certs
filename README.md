@@ -5,7 +5,7 @@
 * [What is ddev-certs?](#what-is-ddev-certs)
 * [Getting started](#getting-started)
 
-## What is ddev-addon-template?
+## What is ddev-certs?
 
 Simple DDEV addon which adds the ca-certificates on your host to your web container.
 
