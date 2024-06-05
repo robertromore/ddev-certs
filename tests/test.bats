@@ -14,7 +14,7 @@ setup() {
 health_checks() {
   # Do something useful here that verifies the add-on
   # ddev exec "curl -s elasticsearch:9200" | grep "${PROJNAME}-elasticsearch"
-  ddev exec "curl --verbose https://google.com | grep 'SSL certificate verify ok'"
+  ddev exec "curl -v --silent https://google.com 2>&1 | grep -c 'SSL certificate verify ok.'"
 }
 
 teardown() {
